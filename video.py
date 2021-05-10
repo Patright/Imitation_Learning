@@ -1,6 +1,8 @@
+import os
+#os.environ["IMAGEIO_FFMPEG_EXE"] = "/usr/bin/ffmpeg"
+#os.environ["IMAGEIO_FFMPEG_EXE"] = "/opt/carnd_p3/behavioral/lib/python3.5/site-packages/ffmpeg"
 from moviepy.editor import ImageSequenceClip
 import argparse
-import os
 
 IMAGE_EXT = ['jpeg', 'gif', 'png', 'jpg']
 
